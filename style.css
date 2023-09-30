@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  z-index: 10;
+}
+
+.navbar_netflix {
+  height: 100%;
+  width: 125px;
+}
+
+.navbar_nav_items {
+  display: flex;
+  gap: 10px;
+}
+
+.netflix_logo {
+  width: 100%;
+  height: 100%;
+}
+
+.language_drop_down {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.dropdown_container {
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.signin_button {
+  border: #dc030f;
+  background-color: #dc030f;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  height: 35px;
+  width: 100px;
+}
+
+.hero_bg_img_container {
+  width: 100%;
+  height: 100%;
+}
+
+.hero_bg_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  background: (0, 0, 0, 0.4);
+  
+}
+
+.hero_bg_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hero_card {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  display: flex;
+  left: 17%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero_title {
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: bold;
+}
+
+.hero_subtitle,
+.hero_desc {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.email-signup {
+  background: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.email-signup input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+
+.email-signup button {
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+}
+
+.row_1 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+.text-col1{
+  padding-left: 80px;
+}
+.row_1 video{
+  position: relative;
+  width: 100%;
+  height: 54%;
+  left: 35%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.text-col1 {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.text-col2{
+  left: 40%;
+  bottom: 50%
+}
+
+.img-col2,
+.img-col4 {
+  right:60%;
+  left:40%
+  flex-basis: 100%;
+}
+
+.img-col1,
+.img-col3,
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.features h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.row_3 img {
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+.row_4,
+.row_2 .img {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.features h1 {
+  font-size: 3rem;
+  padding: 3rem;
+  padding-left: 0;
+}
+
+.features h3 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding-left: 0;
+}
+
+.row_2,
+.row_4 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.text-col2 {
+  padding-left: 0;
+}
+
+.row_3,
+.row_4 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.text-col3 {
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+.img-col2,
+.img-col3 {
+  width: 100%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.footer,
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding-left: 50px;
+}
+
+.footer li {
+  line-height: 1.9;
+}
+
